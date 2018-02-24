@@ -1,0 +1,28 @@
+.review {
+  background: url("../img/review-bg.png") center/cover no-repeat;
+  color: $color2;
+  text-align: center;
+
+  &__container {
+  background: url("../img/review-bg-inner.png") center no-repeat;
+  }
+
+  &__avatar {
+    display: inline-block;
+    background: url("../img/avatar.png");
+    background-position-x: -20px;
+    border: 5px solid #948a93;
+    border-radius: 50%;
+    width: 108px;
+    height: 108px;
+  }
+
+  &__text {
+  font: normal $light-weight 3rem $basic-font-family;
+  line-height: 1.2;
+  }
+
+  &__autor {
+  font: italic $light-weight 1.8rem $basic-font-family;
+  }
+}

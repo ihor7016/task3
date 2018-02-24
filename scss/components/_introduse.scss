@@ -1,0 +1,44 @@
+.introduse {
+background-color: $color4;
+
+  &__img-container {
+    float: left;
+    height: 778px;
+    width: 50%;
+    position: relative;
+  }
+
+  &__img {
+    position:absolute;
+    left: -22px;
+  }
+
+  &__info {
+    width: 50%;
+  }
+
+  &__line {
+    margin-left: 0;
+  }
+
+  &__link{
+    display: inline-block;
+    background: center/contain no-repeat;
+    width: 112px;
+    height: 39px;
+
+    &_app{
+      background-image: url("../img/apple_badge.svg");
+    }
+
+    &_andr{
+      background-image: url("../img/android_badge.svg");
+    }
+  }
+
+  &::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+}

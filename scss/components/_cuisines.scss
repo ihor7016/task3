@@ -1,0 +1,41 @@
+$image-width: 320px;
+
+@function calcCuisineX($i) {
+  @return -1*$image-width*$i;
+}
+
+
+.cuisines {
+  color: $color2;
+
+  &__container {
+
+  }
+
+  &__menu {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  &__item {
+      display: inline-block;
+      flex: 20%;
+      height: 225px;
+      width: 320px;
+      padding: 0;
+      text-align: center;
+
+    @for $i from 0 through 10 {
+        &_#{$i} {
+          background: url('../img/cuisine'+$i+'.png') center/cover no-repeat,  $color3;
+        }
+
+  }
+
+  &__text {
+  font: italic bold 3.6rem $second-font-family;
+  }
+  }
+
+}

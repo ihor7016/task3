@@ -1,0 +1,11 @@
+.footer {
+  background-color: $color4;
+  border-top: 0.1rem solid #e2e2e2;
+    font: normal $light-weight 1.4rem $basic-font-family;
+    color: #8b8b8b;
+
+    &__link {
+      font-weight: normal;
+      color: $color1;
+    }
+}

@@ -1,0 +1,45 @@
+.features {
+
+  &__menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  }
+
+  &__item {
+    flex: 30.5%;
+    text-align: center;
+  }
+
+  &__icon {
+    display: inline-block;
+    border: 1px solid $color1;
+    border-radius: 50%;
+    width: 10.7rem;
+    height: 10.7rem;
+
+    &_1 {
+      background: url("../img/features-1.svg") center no-repeat;
+      &:hover {
+      background: url("../img/features-1-1.svg") center no-repeat;
+      }
+    }
+
+    &_2 {
+      background: url("../img/features-2.svg") center no-repeat;
+      &:hover {
+      background: url("../img/features-2-1.svg") center no-repeat;
+      }
+    }
+
+    &_3 {
+      background: url("../img/features-3.svg") center no-repeat;
+      &:hover {
+      background: url("../img/features-3-1.svg") center no-repeat;
+      }
+    }
+  }
+
+
+
+}

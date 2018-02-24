@@ -4,17 +4,12 @@
   text-align: center;
   text-transform: uppercase;
 
-  &__top-line{
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: space-between;
-  }
-
   &__logo {
 
   }
 
   &__menu {
+    display: inline-block;
     font: normal bold 1.4rem $basic-font-family;
   }
   &__subheading {
@@ -22,5 +17,16 @@
     font: italic bold 3.6rem $second-font-family;
     opacity: 0.702;
 
+  }
+  &__button {
+    font: normal bold 1.8rem $basic-font-family;
+  }
+
+  &__text {
+    font: normal bold 1.4rem $basic-font-family;
+  }
+
+  &__link {
+    color: $color2;
   }
 }
