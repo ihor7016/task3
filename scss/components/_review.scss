@@ -4,25 +4,29 @@
   text-align: center;
 
   &__container {
-  background: url("../img/review-bg-inner.png") center no-repeat;
+    background: url("../img/review-bg-inner.png") center/cover no-repeat;
+    padding: 7.8rem 0;
+    box-sizing: border-box;
   }
 
   &__avatar {
     display: inline-block;
     background: url("../img/avatar.png");
-    background-position-x: -20px;
+    background-position-x: -21px;
+    background-position-y: -5px;
     border: 5px solid #948a93;
     border-radius: 50%;
-    width: 108px;
-    height: 108px;
+    width: 104px;
+    height: 104px;
   }
 
   &__text {
-  font: normal $light-weight 3rem $basic-font-family;
-  line-height: 1.2;
+    font: normal $light-weight 3rem $basic-font-family;
+    line-height: 1.4;
+    margin: 1.6rem 10rem;
   }
 
   &__autor {
-  font: italic $light-weight 1.8rem $basic-font-family;
+    font: italic $light-weight 1.8rem $basic-font-family;
   }
 }

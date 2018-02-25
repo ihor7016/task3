@@ -1,13 +1,20 @@
 .numbers {
+  margin: 4rem 0 5.2rem;
 
-  &__menu{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  &__menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
   }
 
   &__digit {
     font: normal bold 3.6rem $basic-font-family;
-    line-height: 0.833;
+    margin: 1rem 0 0;
+    letter-spacing: 0.15rem;
+  }
+
+  &__text {
+    margin: 0.2rem auto;
   }
 }

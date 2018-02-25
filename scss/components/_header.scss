@@ -3,27 +3,63 @@
   color: $color2;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+  padding: 1.6rem 0 22.3rem;
 
   &__logo {
-
   }
 
   &__menu {
     display: inline-block;
     font: normal bold 1.4rem $basic-font-family;
+    letter-spacing: 0.02rem;
+    align-self: center;
+    margin: 1rem 0 0;
   }
+
+  &__menu-item {
+    margin-left: 2.6rem;
+  }
+
   &__subheading {
     text-transform: none;
     font: italic bold 3.6rem $second-font-family;
+    line-height: 0.9;
+    letter-spacing: 0.1rem;
     opacity: 0.702;
-
+    margin: 26.4rem 0 0 0;
+    padding-left: 1.6rem;
   }
+
+  &__heading {
+    letter-spacing: 0.5rem;
+    margin: 0;
+  }
+
   &__button {
     font: normal bold 1.8rem $basic-font-family;
+    text-transform: uppercase;
+    color: $color2;
+    letter-spacing: 0.02rem;
+    background: none;
+    line-height: 5.4rem;
+    border: solid 0.3rem $color2;
+    border-radius: 0.3rem;
+    margin: 2rem auto;
+    padding-bottom: 0.8rem;
+    box-sizing: border-box;
+    width: 28rem;
+
+    &:hover {
+      border-color: $color3;
+      background-color: $color3;
+    }
   }
 
   &__text {
     font: normal bold 1.4rem $basic-font-family;
+    line-height: 2.2rem;
+    letter-spacing: 0.05rem;
   }
 
   &__link {

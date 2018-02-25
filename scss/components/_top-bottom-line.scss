@@ -1,5 +1,6 @@
-  .top-bottom-line{
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: space-between;
-  }
+.top-bottom-line {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: row wrap;
+  justify-content: space-between;
+}

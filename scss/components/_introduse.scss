@@ -1,44 +1,57 @@
 .introduse {
-background-color: $color4;
+  background-color: $color4;
+
+  &__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
 
   &__img-container {
-    float: left;
     height: 778px;
-    width: 50%;
+    flex: 50%;
     position: relative;
   }
 
   &__img {
-    position:absolute;
+    position: absolute;
     left: -22px;
   }
 
   &__info {
-    width: 50%;
+    box-sizing: border-box;
+    flex: 50%;
+    padding: 5.4rem 0 0 5rem;
   }
 
   &__line {
     margin-left: 0;
   }
 
-  &__link{
+  &__text {
+    margin: 1.2rem 0 2.6rem;
+  }
+
+  &__link {
     display: inline-block;
     background: center/contain no-repeat;
-    width: 112px;
-    height: 39px;
+    height: 3.9rem;
 
-    &_app{
-      background-image: url("../img/apple_badge.svg");
+    &_app {
+      background-image: url("../img/apple_badge.png");
+      width: 11.2rem;
     }
 
-    &_andr{
-      background-image: url("../img/android_badge.svg");
+    &_andr {
+      background-image: url("../img/android_badge.png");
+      width: 12rem;
+      margin-left: 0.8rem;
     }
   }
 
   &::after {
-  content: "";
-  clear: both;
-  display: block;
-}
+    content: "";
+    clear: both;
+    display: block;
+  }
 }
