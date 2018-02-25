@@ -1,0 +1,67 @@
+.information {
+  background: #f7f7f7;
+  padding: 107px 0 0;
+
+  @media screen and (max-width: $desktop-viewport) {
+    padding: 50px 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  &__img {
+    align-self: flex-end;
+    margin: 0 0 0 -21px;
+
+    @media screen and (max-width: 1200px) {
+      width: 48%;
+    }
+
+    @media screen and (max-width: $desktop-viewport) {
+      display: none;
+    }
+  }
+
+  &__text {
+    padding: 75px 0 0;
+    width: 540px;
+
+    @media screen and (max-width: 1200px) {
+      width: 48%;
+    }
+
+    @media screen and (max-width: $desktop-viewport) {
+      padding: 0;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: $black;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    position: relative;
+
+    &:after {
+      content: "";
+      height: 1px;
+      width: 88px;
+      background: $red;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin: 4px 0 0;
+    }
+  }
+
+  p {
+    margin: 0 0 26px;
+  }
+}

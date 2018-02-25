@@ -1,0 +1,12 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.page {
+  color: $base-color;
+  background-color: $base-bg;
+  font: $base-font;
+  min-width: 320px;
+}

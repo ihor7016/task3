@@ -1,0 +1,22 @@
+.opener {
+  width: 14px;
+  height: 10px;
+  display: block;
+  border: solid $white;
+  border-width: 2px 0;
+  background: none;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    height: 2px;
+    background: $white;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    width: 100%;
+    left: 0;
+  }
+}
