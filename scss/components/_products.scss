@@ -1,0 +1,68 @@
+.products {
+  padding: 0;
+  margin: 0 0 45px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 20%;
+    position: relative;
+
+    @media screen and (max-width: 1400px) {
+      width: 25%;
+    }
+
+    @media screen and (max-width: $desktop-viewport) {
+      width: 33.3%;
+    }
+
+    @media screen and (max-width: $tablet-viewport) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 540px) {
+      width: 100%;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    display: block;
+    position: relative;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+  }
+
+  &__subtitle {
+    font: bold italic 16px/20px "Times New Roman", Times, serif;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @media screen and (max-width: $tablet-viewport) {
+      font-size: 26px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.gallery {
+  background: url("../img/bg-gallery.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  text-align: center;
+  color: #928991;
+
+  &__container {
+    padding: 79px 10px 120px;
+    position: relative;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__avatar {
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  &__title {
+    font: 300 30px/44px "Lato", sans-serif;
+    display: block;
+    margin: 0 0 15px;
+  }
+
+  &__subtitle {
+    font: 300 italic 18px/24px "Lato", sans-serif;
+    display: block;
+    margin: 0 0 15px;
+  }
+}

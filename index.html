@@ -1,14 +1,238 @@
 <!DOCTYPE html>
-<html class="page" lang="EN">
+<html lang="EN">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
-  <link rel="stylesheet" href="dist/style.css">
+  <title>Test Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="dist/index.css">
 </head>
-<body>
 
+<body class="page">
+  <header class="header">
+    <div class="container header__container">
+      <a href="#" class="logo">fudi</a>
+      <div class="header__holder">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link link">LOG IN</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link link">SIGN UP</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__opener opener"></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="promo">
+      <div class="container promo__container">
+        <h1 class="promo__title">Find your Favorite</h1>
+        <h2 class="promo__subtitle">RECIPES</h2>
+        <button class="promo__button button">GET STARTED</button>
+        <span class="promo__description">OR SEND US YOUR OWN RECIPES AND
+          <a href="#" class="promo__link link">GET REWARDED</a>!</span>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="info-list">
+        <li class="info-list__item">
+          <div class="info-list__visual">
+            <img src="img/ico01.png" alt="img description" class="info-list__ico">
+          </div>
+          <h2 class="info-list__title">GET INSPIRED</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma.
+            <br> Aliquam erat volutpat. </p>
+        </li>
+        <li class="info-list__item">
+          <div class="info-list__visual">
+            <img src="img/ico02.png" alt="img description" class="info-list__ico">
+          </div>
+          <h2 class="info-list__title">GET REWARDED</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma.
+            <br> Aliquam erat volutpat. </p>
+        </li>
+        <li class="info-list__item">
+          <div class="info-list__visual">
+            <img src="img/ico03.png" alt="img description" class="info-list__ico">
+          </div>
+          <h2 class="info-list__title">GET SOCIAL</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma.
+            <br> Aliquam erat volutpat. </p>
+        </li>
+      </ul>
+    </div>
+    <div class="information">
+      <div class="information__container container">
+        <img src="img/img01.png" alt="img description" class="information__img">
+        <div class="information__text">
+          <h2 class="information__title">INTRODUCING THE FUDI APP</h2>
+          <p>Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet felis sit amet diam mollis ullamcorper.
+            Nullam consequat sem a ante vest ibulum tristique. Suspendisse tristique lacus ac mattis porta.</p>
+          <p>Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In libero dui, eleifend eu nisi id, egestas
+            fringilla odio. In varius quam a mas sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis.
+            Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan.</p>
+          <p>Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam malesuada. Duis vehicula a nibh id hendrerit.
+            Donec sit amet ultrices ante, a mattis massa. </p>
+          <img src="img/widget.png" alt="img description">
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="gallery__container container">
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <img src="img/avatar.png" alt="img description" class="information__avatar">
+            <strong class="gallery__title">“I am so happy because I found this recipe, and it just made my life easier.
+              <br> Thanks so much for sharing!”</strong>
+            <strong class="gallery__subtitle">- Michael Dawson, San Francisco, CA -</strong>
+          </li>
+        </ul>
+        <ul class="switcher">
+          <li class="switcher__item">
+            <a href="#" class="switcher__link switcher__link_active">1</a>
+          </li>
+          <li class="switcher__item">
+            <a href="#" class="switcher__link">2</a>
+          </li>
+          <li class="switcher__item">
+            <a href="#" class="switcher__link">3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="data">
+      <h2 class="data__title">BROWSE BY CUISINES</h2>
+      <ul class="products">
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img02.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">327 Recipes</em>
+              <strong class="products__title">ITALIAN</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img03.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">856 Recipes</em>
+              <strong class="products__title">INDIAN</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img04.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">27 Recipes</em>
+              <strong class="products__title">FRENCH</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img05.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">174 Recipes</em>
+              <strong class="products__title">STEAKHOUSE</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img06.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">731 Recipes</em>
+              <strong class="products__title">SEAFOOD</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img07.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">237 Recipes</em>
+              <strong class="products__title">SUSHI</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img08.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">529 Recipes</em>
+              <strong class="products__title">MEXICAN</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img09.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">145 Recipes</em>
+              <strong class="products__title">CHINESE</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img10.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">327 Recipes</em>
+              <strong class="products__title">PIZZA</strong>
+            </div>
+          </a>
+        </li>
+        <li class="products__item">
+          <a href="#" class="products__link">
+            <img src="img/img11.jpg" alt="img description" class="products__img">
+            <div class="products__info">
+              <em class="products__subtitle">1.437 Recipes</em>
+              <strong class="products__title">AMERICAN</strong>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <ul class="data__list">
+        <li class="data__list-item">
+          <strong class="data__list-count">23,567</strong>
+          <span class="data__list-name">Recipes Available</span>
+        </li>
+        <li class="data__list-item">
+          <strong class="data__list-count">431,729</strong>
+          <span class="data__list-name">Active Users</span>
+        </li>
+        <li class="data__list-item">
+          <strong class="data__list-count">892,173</strong>
+          <span class="data__list-name">Positive Reviews </span>
+        </li>
+        <li class="data__list-item">
+          <strong class="data__list-count">56,581</strong>
+          <span class="data__list-name">Photos &amp; Videos</span>
+        </li>
+        <li class="data__list-item">
+          <strong class="data__list-count">3,182</strong>
+          <span class="data__list-name">Spices and Herbs </span>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <span class="footer__copy">&copy;2014 Fudi. All Rights Reserved.</span>
+      <span class="footer__info">DESIGN BY:
+        <a href="WWW.BEKADES.COM" class="footer__info-link">WWW.BEKADES.COM</a>
+      </span>
+    </div>
+  </footer>
 </body>
+
 </html>

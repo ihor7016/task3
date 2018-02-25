@@ -1,0 +1,33 @@
+.switcher {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  &__item {
+    margin: 0 5px;
+  }
+
+  &__link {
+    width: 10px;
+    height: 10px;
+    text-indent: -9999px;
+    overflow: hidden;
+    opacity: 0.2;
+    display: block;
+    background: $white;
+    border-radius: 50%;
+
+    &:hover,
+    &_active {
+      opacity: 1;
+    }
+  }
+}

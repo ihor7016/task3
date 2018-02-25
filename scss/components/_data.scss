@@ -1,0 +1,68 @@
+.data {
+  padding: 95px 0 55px;
+  text-align: center;
+
+  @media screen and (max-width: $tablet-viewport) {
+    padding: 35px 0 35px;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: $black;
+    margin: 0 0 44px;
+    text-transform: uppercase;
+    position: relative;
+
+    &:after {
+      content: "";
+      height: 1px;
+      width: 88px;
+      background: $red;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin: 4px 0 0 -44px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    max-width: 1200px;
+
+    @media screen and (max-width: $tablet-viewport) {
+      flex-direction: column;
+    }
+
+    &-item {
+      margin: 0 10px;
+
+      @media screen and (max-width: $tablet-viewport) {
+        margin: 0 0 20px;
+      }
+    }
+
+    &-count {
+      font-size: 36px;
+      line-height: 42px;
+      font-weight: bold;
+      display: block;
+      margin: 0 0 5px;
+      color: $black;
+
+      @media screen and (max-width: $desktop-viewport) {
+        font-size: 26px;
+      }
+    }
+
+    &-name {
+      display: block;
+    }
+  }
+}
