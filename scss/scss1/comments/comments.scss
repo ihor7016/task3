@@ -1,0 +1,40 @@
+$font_size: 18pt;
+
+.comments {
+	clear: both;
+	background-color: rgb(74, 57, 73);
+	background-image: url(../../img/comments_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover cover;
+	width: 100%;
+	padding-top: 80px;
+	color: white;
+}
+.coments__img {
+	padding-bottom: 0;
+}
+.comments__body {
+	font-style: normal;
+	font-size: $font_size;
+	font-weight: lighter;
+	font-family: 'Lato', sans-serif;
+	font-stretch: ultra-condensed;
+	line-height: 35px; 
+	margin-top: 3px;
+	padding-bottom: 0;
+}
+.comments__writer {
+	font-style: oblique;
+	font-size: $font_size*0.7;
+}
+.comments__list {
+	padding-bottom: 60px;
+	padding-left: 0;
+}
+.comments__list_item {
+	display: inline;
+	margin-right: 0;
+	padding-left: 0;
+
+}
