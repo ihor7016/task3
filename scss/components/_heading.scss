@@ -14,4 +14,13 @@
     margin-bottom: 0.6rem;
     letter-spacing: 0.05rem;
   }
+
+  @media only screen and (max-width: $small-break-point) {
+    &_1 {
+      font-size: 6rem;
+    }
+    &_2 {
+      font-size: 2.4rem;
+    }
+  }
 }

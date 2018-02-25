@@ -17,4 +17,10 @@
   &__text {
     margin: 0.2rem auto;
   }
+
+  @media only screen and (max-width: $small-break-point) {
+    &__menu {
+      flex-direction: column;
+    }
+  }
 }

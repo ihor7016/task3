@@ -4,21 +4,22 @@
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
-  padding: 1.6rem 0 22.3rem;
-
-  &__logo {
-  }
+  padding: 0.8rem 0 22.1rem;
 
   &__menu {
     display: inline-block;
     font: normal bold 1.4rem $basic-font-family;
     letter-spacing: 0.02rem;
     align-self: center;
-    margin: 1rem 0 0;
   }
 
   &__menu-item {
     margin-left: 2.6rem;
+  }
+
+  &__logo {
+    position: relative;
+    left: -12px;
   }
 
   &__subheading {
@@ -27,7 +28,7 @@
     line-height: 0.9;
     letter-spacing: 0.1rem;
     opacity: 0.702;
-    margin: 26.4rem 0 0 0;
+    margin: 24.7rem 0 0 0;
     padding-left: 1.6rem;
   }
 
@@ -58,11 +59,22 @@
 
   &__text {
     font: normal bold 1.4rem $basic-font-family;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
     letter-spacing: 0.05rem;
   }
 
   &__link {
     color: $color2;
+  }
+
+  @media only screen and (max-width: $tiny-break-point) {
+    &__logo {
+      left: auto;
+      margin: 5rem auto 0;
+      width: 12rem;
+    }
+    &__subheading {
+      margin-top: 5rem;
+    }
   }
 }
