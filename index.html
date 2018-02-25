@@ -1,14 +1,162 @@
 <!DOCTYPE html>
 <html class="page" lang="EN">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
+
   <link rel="stylesheet" href="dist/style.css">
 </head>
-<body>
 
+<body>
+  <header class="header">
+    <div class="header__toolbar">
+      <img src="img/icon/logo.png" alt="logo" class="header__toolbar-logo">
+      <ul class="header__toolbar-item">
+        <li class="header__toolbar-text">LOG IN</li>
+        <li class="header__toolbar-text">SIGN UP</li>
+        <li class="header__toolbar-text"><img src="img/icon/MENU.png" alt="menu"></li>
+      </ul>
+    </div>
+    <div class="header__container container">
+      <h1 class="header__heading heading heading_1">Find our Favorite</h1>
+      <h2 class="header__heading heading heading_2">RECIPES</h2>
+      <button class="header__button button"><span class="header__button-name">GET STARTED</span></button>
+      <h3 class="header__subtitle-heading  heading heading_3">OR SEND US YOUR OWN RECIPES AND <span class="header__subtitle-part">GET REWARDED!</span></h3>
+    </div>
+  </header>
+  <section class="features">
+    <div class="features__container container">
+      <ul class="features__menu menu">
+        <li class="features__menu-item">
+          <div class="features__icon">
+            <img src="img/icon/getinspired.png" alt="GET REWARDED" class="features__icon-content">
+          </div>
+          <h4 class="features__heading heading heading_4">GET INSPIRED</h4>
+          <hr class="features__heading-delimiter">
+          <p class="features__text text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
+          </p>
+        </li>
+        <li class="features__menu-item">
+          <div class="features__icon icon_sm">
+            <img src="img/icon/rewarded.png" alt="GET REWARDED" class="features__icon-content">
+          </div>
+          <h4 class="features__heading heading heading_4">GET REWARDED</h4>
+          <hr class="features__heading-delimiter">
+          <p class="features__text text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
+          </p>
+        </li>
+        <li class="features__menu-item">
+          <div class="features__icon">
+            <img src="img/icon/getsocial.png" alt="GET REWARDED" class="features__icon-content">
+          </div>
+          <h4 class="features__heading heading heading_4">GET SOSIAL</h4>
+          <hr class="features__heading-delimiter">
+          <p class="features__text text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="updates">
+    <div class="updates__container container">
+      <ul class="updates__menu menu">
+        <li class="updates__menu-item">
+          <img src="img/bg/bgphone.png" alt="phone" class="updates__menu-img">
+        </li>
+        <li class="updates__menu-item ">
+          <div class="updates__item-content">
+            <h4 class="updates__heading heading heading_4">INTRODUCING THE FUDI APP</h4>
+            <hr class="updates__heading-delimiter">
+          </div>
+
+          <div class="updates__item-textcontent">
+            <p class="updates__text text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br><br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <img src="img/icon/appstore.png" alt="appstore" class="updates__icon">
+            <img src="img/icon/googleplay.png" alt="googleplay" class="updates__icon">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="reviews">
+    <div class="reviews__container container">
+      <div class="reviews__menu menu">
+        <div class="reviews__menu-item">
+          <div class="reviews__item-content">
+            <img src="img/icon/person.png " alt="person" class="reviews__icon">
+            <p class="reviews__text-quote text"><q>I am so happy because i found this recipe and it just made my life
+            easier.<br>
+            Thans so much for sharing!
+          </q><br><br>
+              <i class="reviews__text">- Michael Dawson, San Francisco, CA-</i><br><br>
+              <img src="img/icon/point.png">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cook">
+    <div class="cook__container container">
+      <div class="cook__menu menu">
+        <div class="cook__menu-item">
+          <h4 class="cook__heading heading heading_4">BROWSW BY CUISINES</h4>
+          <hr class="cook__heading-delimiter">
+        </div>
+
+
+        <div class="cook__menu-contaiter">
+          <div class="cook__menu-item"><img src="img/cook/italian.png"><span class="cook__menu-name">327 Recipes</span><span class="cook__menu-item-name">ITALIAN</span></div>
+          <div class="cook__menu-item"><img src="img/cook/indian.png"><span class="cook__menu-name">856 Recipes</span><span class="cook__menu-item-name">INDIAN</span></div>
+          <div class="cook__menu-item"><img src="img/cook/french.png"><span class="cook__menu-name">27 Recipes</span><span class="cook__menu-item-name">FRENCH</span></div>
+          <div class="cook__menu-item"><img src="img/cook/steak.png"><span class="cook__menu-name">174 Recipes</span><span class="cook__menu-item-name">STEAK</span></div>
+          <div class="cook__menu-item"><img src="img/cook/SEA.png"><span class="cook__menu-name">237 Recipes</span><span class="cook__menu-item-name">SEAFOOD</span></div>
+          <div class="cook__menu-item"><img src="img/cook/SU.png"><span class="cook__menu-name">529 Recipes</span><span class="cook__menu-item-name">SUSHY</span></div>
+          <div class="cook__menu-item"><img src="img/cook/MEXICAN.png"><span class="cook__menu-name">327 Recipes</span><span class="cook__menu-item-name">MEXICAN</span></div>
+          <div class="cook__menu-item"><img src="img/cook/CHINESE.png"><span class="cook__menu-name">327 Recipes</span><span class="cook__menu-item-name">CHINESE</span></div>
+          <div class="cook__menu-item"><img src="img/cook/PIZZA.png"><span class="cook__menu-name">327 Recipes</span><span class="cook__menu-item-name">PIZZA</span></div>
+          <div class="cook__menu-item"><img src="img/cook/AMERICAN.png"><span class="cook__menu-name">1,437 Recipes</span><span class="cook__menu-item-name">AMERICAN</span></div>
+
+        </div>
+        <div class="cook__menu-numbers">
+          <div class="cook__menu-numbers-item">
+            <p class="cook__menu-numb-text">23,567</p>
+            <p class="cook__menu-text">Recipes Available</p>
+          </div>
+          <div class="cook__menu-numbers-item">
+            <p class="cook__menu-numb-text">431,729</p>
+            <p class="cook__menu-text">Active Users</p>
+          </div>
+          <div class="cook__menu-numbers-item">
+            <p class="cook__menu-numb-text">892,173</p>
+            <p class="cook__menu-text">Positive Reviews</p>
+          </div>
+          <div class="cook__menu-numbers-item">
+            <p class="cook__menu-numb-text">56,581</p>
+            <p class="cook__menu-text">Photos&Videos</p>
+          </div>
+          <div class="cook__menu-numbers-item">
+            <p class="cook__menu-numb-text">3,182</p>
+            <p class="cook__menu-text">Spices and Herbs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>

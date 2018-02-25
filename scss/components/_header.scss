@@ -1,0 +1,46 @@
+.header {
+  background: url("../img/bg/mainbg.png") center/cover no-repeat;
+  color: $base-text-color;
+
+  &__container {
+    padding: 0 12rem 241px 12rem;
+  }
+  &__toolbar {
+    padding: 15px 12rem 241px 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__toolbar-item {
+    display: flex;
+    list-style-type: none;
+  }
+  &__toolbar-text {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+
+  &__button-name {
+    color: $base-text-color;
+    font-size: 18px;
+    font-family: $basic-font-light;
+  }
+  &__subtitle-part {
+    text-decoration: underline;
+    color: $base-text-color;
+    font-size: 14px;
+    font-family: $basic-font-light;
+  }
+
+  @media only screen and (max-width: $smaller-break-point) {
+    text-align: center;
+
+    &__container {
+      padding: 0 1rem 241px 0;
+    }
+
+    &__heading {
+      margin-top: 10rem;
+    }
+  }
+}

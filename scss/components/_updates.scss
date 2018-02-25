@@ -1,0 +1,142 @@
+.updates {
+  &__container {
+    background-color: #f7f7f7;
+    padding: 50px 12rem 0 12rem;
+  }
+  &__heading {
+    margin: 10px 0 0 0;
+    &-delimiter {
+      width: 84px;
+      color: $delimiter-color;
+      margin-left: 0;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: none;
+      background-color: $delimiter-color;
+      height: 1px;
+    }
+  }
+  &__icon {
+    margin-bottom: 20px;
+  }
+  &__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 60px 0 0px 0;
+    padding: 0;
+    &-item {
+      margin: 0;
+      text-align: left;
+      font-size: 5rem;
+      color: $base-text-color;
+      list-style-type: none;
+    }
+  }
+  &__item-content {
+    margin-top: 90px;
+    position: relative;
+    flex: 1 1 auto;
+    margin-left: 10px;
+  }
+  &__text {
+    font-family: $basic-font-light;
+    margin: 18px 0 0 0;
+    font-size: 16px;
+    color: #b5b5b5;
+  }
+  &__item-textcontent {
+    position: relative;
+    flex: 1 1 auto;
+    padding-top: 2px;
+    margin-left: 10px;
+  }
+  @media only screen and (min-width: $large-break-point) {
+    &__menu {
+      &-item {
+        flex-basis: 50%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    &__menu {
+      &-item {
+        flex-basis: 45%;
+      }
+    }
+  }
+  @media only screen and (max-width: 1335px) {
+    &__menu {
+      &-item {
+        flex-basis: 50%;
+      }
+      &-img {
+        width: 351px;
+        height: 536px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1110px) {
+    &__menu {
+      &-item {
+        flex-basis: 50%;
+      }
+      &-img {
+        width: 300px;
+        height: 458px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1101px) {
+    &__menu {
+      &-item {
+        flex-basis: 50%;
+      }
+      &-img {
+        width: 211px;
+        height: 322px;
+      }
+    }
+  }
+  @media only screen and (max-width: $small-break-point) {
+    &__item-content {
+      margin-top: 0;
+    }
+    &__menu {
+      flex-flow: column nowrap;
+      text-align: justify;
+      margin-bottom: 0;
+      &-item {
+        flex-basis: 50%;
+        margin: 0 auto 30px;
+      }
+      &-img {
+        width: 211px;
+        height: 322px;
+      }
+    }
+  }
+  @media only screen and (max-width: $smaller-break-point) {
+    &__container {
+      padding: 0 1rem;
+    }
+    &__icon {
+      margin: 0px;
+    }
+    &__menu {
+      flex-flow: column nowrap;
+      text-align: justify;
+      margin-bottom: 0;
+      &-item {
+        flex-basis: auto;
+        max-width: 30rem;
+        margin: 0 auto 30px;
+      }
+      &-img {
+        width: 211px;
+        height: 322px;
+      }
+    }
+  }
+}
