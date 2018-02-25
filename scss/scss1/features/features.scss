@@ -1,0 +1,38 @@
+$font_siz: 18pt;
+
+@media screen and (max-device-width: 950px) {
+	.features__item {
+		width: 55% !important;
+	}
+}
+
+
+.features {
+	padding-top: 83px;
+	padding-bottom: 80px;
+}
+.h2_visible {
+  display: none;
+}
+.features__item {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25%;
+}
+.features__body {
+	font-size: $font_siz*0.63;
+	font-weight: lighter;
+	color: rgb(141, 141, 141);
+	line-height: 18px;
+}
+.features__header {
+	font-size: $font_siz*0.63;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+.features__line {
+	width: 23%;
+	background-color: rgb(245, 115, 101);
+	height: 1px;
+	border: none;
+}

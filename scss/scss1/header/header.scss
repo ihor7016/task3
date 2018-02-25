@@ -1,0 +1,87 @@
+$font_size: 100pt;
+
+@media screen and (max-device-width: 600px) {
+	.logo {
+		float: none;
+		padding-left: 20% !important;
+	}
+	.nav {
+		float: none;
+		padding-right: 20% !important;
+	}	
+	.header__h1 {
+		font-size: $font_size*0.5 !important;
+	}
+}
+
+
+
+
+.page {
+	text-align: center;
+}
+.header {
+	background-color: rgb(180, 153, 126);
+	background-image: url(../../img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover cover;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	color: white;
+}
+.logo {
+	float: left;
+	padding-top: 0;
+	padding-left: 120px;
+}
+.nav {
+	float: right;
+	padding-right: 170px;
+	padding-top: 32px;
+}
+.nav__link {
+	padding-top: 0;
+	text-decoration: none;
+	color: white;
+	font: normal bold 12px Lato;
+	font-family: sans-serif;
+	padding-right: 12px;
+}
+.main-head {
+	padding-top: 250px;
+	text-align: center;
+	font-size: 50px;
+}
+.header__h1 {
+	font-size: $font_size*0.6;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+.header__p {
+	padding-top: 6px;
+
+	padding-bottom: 0;
+	margin-bottom: 0;
+	letter-spacing: 1.5px;
+	font: italic bold $font_size*0.23 serif;
+}
+.main-head__button {
+	border: 3px solid white;
+	background-color: transparent;
+	color: white;
+	font-size: $font_size*0.1;
+	padding: 18px 70px;
+	margin-top: 6px;
+	font-weight: bold;
+	margin-left: 0%;
+}
+.header__txt {
+	font-size: $font_size*0.09;
+	padding-top: 30px;
+	padding-bottom: 170px;
+}

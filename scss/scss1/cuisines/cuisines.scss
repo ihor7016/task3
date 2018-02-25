@@ -1,0 +1,42 @@
+$font_size: 24pt;
+
+.cuisines__header {
+  padding-top: 70px;
+}
+.cuisines__line {
+	width: 80px;
+	margin-bottom: 30px;
+}
+.cuisines__img {
+	margin: 0 -5px -5px 0;
+	padding: 0;
+	height: 188px;
+	width: 267px;
+}
+.cuisines__block-img {
+	width: 100%;
+	padding: 0;
+	padding-bottom: 45px;
+}
+.cuisines__list {
+	padding-bottom: 30px;
+}
+.cuisines__list-item {
+	display: inline-block;
+	padding-right: 80px;
+	font-family: 'Lato', sans-serif;
+	font-size: $font_size;
+	font-weight: bold;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+.list_item {
+	font-size: $font_size*0.4;
+	font-weight: lighter;
+	color: rgb(170, 170, 170);
+}
+.cuisines__bott-line {
+	background-color: rgb(226, 226, 226);
+	border: none;
+	height: 1px;
+}

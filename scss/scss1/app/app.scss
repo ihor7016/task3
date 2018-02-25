@@ -1,0 +1,60 @@
+$font_siz: 18pt;
+
+@media screen and (max-device-width: 650px) {
+	.app__img {
+		padding-left: 5% !important;
+		padding-right: 10px !important;
+		width: 80% !important;
+	}
+	.app__article {
+		padding-right: 10px !important;
+		padding-left: 30px !important;
+	}
+}
+
+.app {
+	background-color: rgb(247, 247, 247);
+	padding-top: 70px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+.app__img {
+	float: left;
+	padding-left: 12%;
+	padding-right: 100px;
+}
+.app__article {
+	text-align: left;
+	padding-top: 60px;
+	padding-right: 135px;
+	padding-left: 20px;
+}
+.app__line {
+	width: 80px;
+	background-color: rgb(245, 115, 101);
+	height: 1px;
+	border: none;
+	display: inline-block;
+	text-align: left;
+}
+.app__header {
+	font-size: $font_siz*0.7;
+	margin-bottom: -5px;
+}
+.app__body {
+	margin-top: -2px;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+.butt__img {
+	margin: 0;
+	margin-left: -10px;
+	padding: 0;
+	height: 45px;
+}
+.app__but {
+	border: none;
+	background-color: transparent;
+	margin-top: -10px;
+}
