@@ -1,4 +1,5 @@
 .cook {
+  margin-bottom: 0;
   &__container {
     margin: 0;
   }
@@ -24,8 +25,11 @@
     display: flex;
     flex-direction: column;
     margin: 60px 0 0;
-    padding: 0 0 150px 0;
+    padding: 0 0 60px 0;
     list-style-type: none;
+    &-numbers {
+      padding: 0px 12rem 0 12rem;
+    }
     &-numbers-item {
       margin-left: 10px;
     }
