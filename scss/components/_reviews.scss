@@ -1,0 +1,58 @@
+.reviews {
+  background: url("../img/bg/bgperson.png") #4a3949;
+  margin-top: 0;
+  &__container {
+    padding: 0px 12rem 0 12rem;
+    margin-top: -21px;
+  }
+  &__text-quote {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7a6e7a;
+    font-family: $basic-font-light;
+  }
+  &__text {
+    font-size: 14px;
+    color: #7a6e7a;
+    font-family: $basic-font-light;
+  }
+  &__heading {
+    margin: 0;
+  }
+  &__icon {
+    margin-bottom: 0px;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+
+    &-item {
+      text-align: center;
+      font-size: 5rem;
+      color: $base-text-color;
+      width: 800px;
+    }
+  }
+  &__item-content {
+    position: relative;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: $smaller-break-point) {
+    &__menu {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 0;
+
+      &-item {
+        flex-basis: auto;
+        max-width: 10rem;
+        margin: 50px auto 30px;
+      }
+    }
+  }
+}

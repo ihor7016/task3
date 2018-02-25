@@ -1,0 +1,29 @@
+.heading {
+  color: white;
+
+  &_1 {
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(243, 243, 255, 0.68);
+    margin: 352px 0 0px 0;
+  }
+
+  &_2 {
+    font-family: $basic-font-light;
+    font-size: 100px;
+    margin: 0 0 23px 0;
+  }
+
+  &_3 {
+    font-family: $basic-font-light;
+    font-size: 14px;
+    margin: 43px 0 0 0;
+  }
+
+  &_4 {
+    font-family: $basic-font-light;
+    font-size: 18px;
+    color: black;
+  }
+}
