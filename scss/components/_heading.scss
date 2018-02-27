@@ -1,0 +1,26 @@
+.heading {
+  text-transform: uppercase;
+
+  &_1 {
+    font-size: 10rem;
+  }
+
+  &_2 {
+    font-size: 3.6rem;
+  }
+
+  &_3 {
+    font-size: 1.9rem;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.05rem;
+  }
+
+  @media only screen and (max-width: $small-break-point) {
+    &_1 {
+      font-size: 6rem;
+    }
+    &_2 {
+      font-size: 2.4rem;
+    }
+  }
+}

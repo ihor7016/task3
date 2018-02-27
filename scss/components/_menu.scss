@@ -1,0 +1,13 @@
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    display: inline;
+  }
+
+  &__link {
+    color: $color2;
+  }
+}

@@ -1,0 +1,19 @@
+.footer {
+  box-sizing: border-box;
+  background-color: $color4;
+  border-top: 0.1rem solid #e2e2e2;
+  font: normal $light-weight 1.4rem $basic-font-family;
+  color: #8b8b8b;
+  padding: 3.6rem 0;
+  letter-spacing: 0.22rem;
+
+  &__copyright {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+
+  &__link {
+    font-weight: normal;
+    color: $color1;
+  }
+}

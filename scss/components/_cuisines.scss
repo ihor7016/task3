@@ -1,0 +1,53 @@
+.cuisines {
+  color: $color2;
+  text-align: center;
+  margin: 9.7rem 0 0;
+
+  &__heading-top {
+    color: $color1;
+  }
+
+  &__menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 3.8rem 0 0;
+  }
+
+  &__item {
+    display: inline-block;
+    flex: 20%;
+    height: 225px;
+    width: 320px;
+    padding: 0;
+
+    @for $i from 0 through 10 {
+      &_#{$i} {
+        background: url("../img/cuisine"+$i+".png") center/cover no-repeat,
+          $color3;
+      }
+    }
+  }
+
+  &__text {
+    font: italic bold 1.4rem $second-font-family;
+    opacity: 0.902;
+    margin: 7.5rem 0 0;
+  }
+
+  &__heading {
+    margin: 0 0 7rem;
+    letter-spacing: 0.2rem;
+  }
+
+  @media only screen and (max-width: $large-break-point) {
+    &__item {
+      flex: 50%;
+    }
+  }
+  @media only screen and (max-width: $tiny-break-point) {
+    &__item {
+      flex: 100%;
+    }
+  }
+}
