@@ -1,0 +1,8 @@
+.cuisine-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -5px;
+}
+@media screen and (max-width: 601px) {
+  flex-direction: column;
+}

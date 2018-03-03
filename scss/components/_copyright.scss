@@ -1,0 +1,10 @@
+.copyright {
+  float: left;
+  font-family: $header-fontfamily-lato;
+  font-size: 10px;
+  opacity: 0.4;
+}
+@media screen and (max-width: 582px) {
+  float: none;
+  text-align: center;
+}

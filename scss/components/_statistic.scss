@@ -1,0 +1,9 @@
+.statistic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 582px) {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.hamb {
+  display: inline-block;
+  width: 11px;
+  height: 8px;
+  margin-top: 31px;
+}
+@media screen and (max-width: 582px) {
+  width: 11px;
+  height: 8px;
+  margin-top: 3px;
+}

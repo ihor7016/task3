@@ -1,0 +1,33 @@
+.purple-layer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    width: 75px;
+    height: auto;
+    margin-top: 3%;
+  }
+
+  &__header {
+    text-align: center;
+    font-family: lato-hairline;
+    font-size: 2vw;
+    color: $header-fontcolor;
+    opacity: 0.3;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  &__header:last-child {
+    font-family: Lato-HairlineItalic;
+    font-size: 12px;
+    font-style: italic;
+  }
+}
+@media screen and (max-width: 753px) {
+  .purple-layer-content{
+    display: none;
+  }
+}

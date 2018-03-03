@@ -1,0 +1,43 @@
+& {
+  position: relative;
+  &__h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0px;
+    font-family: $header-fontfamily-lato-bold;
+    font-size: 2.5vw;
+    color: $header-fontcolor;
+  }
+  &__h5 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: left;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 11px;
+    color: $header-fontcolor;
+    opacity: 0.8;
+  }
+  &__icon {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 601px) {
+  text-align: center;
+  &__icon{
+    width: 200px;
+    height: auto;
+  }
+  & &__h2 {
+    font-size: 24px;
+  }
+  &__h5 {
+    font-size: 15px;
+  }
+}
