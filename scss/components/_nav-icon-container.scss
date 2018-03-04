@@ -1,0 +1,48 @@
+.nav-icon-container {
+  margin-left: 26px;
+  margin-right: 26px;
+
+  &__circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+  }
+
+  &__pic {
+    display: block;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    width: 33px;
+    height: 33px;
+  }
+
+  &__header {
+    font-family: $header-fontfamily-lato-bold, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+
+  &__line {
+    width: 65px;
+    height: 1px;
+    margin: auto;
+    background-color: red;
+    opacity: 0.2;
+  }
+
+  &__text {
+    font-family: $header-fontfamily-lato, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #787b80;
+    margin-top: 12px;
+    opacity: 0.8;
+  }
+}

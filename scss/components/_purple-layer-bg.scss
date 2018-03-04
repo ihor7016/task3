@@ -1,0 +1,12 @@
+.purple-layer-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  margin-top: -5px;
+}
+@media screen and (max-width: 753px) {
+  .purple-layer-bg {
+    display: none;
+  }
+}
